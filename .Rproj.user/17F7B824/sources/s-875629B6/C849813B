@@ -1,0 +1,25 @@
+{
+    "id": "C849813B",
+    "path": "~/Workspace/FutGenOptimizer/ga_pipeline.R",
+    "project_path": "ga_pipeline.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1702068592173.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled2",
+        "cursorPosition": "67,11",
+        "scrollLine": "52"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1702158487,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1702158487312,
+    "read_only": false,
+    "read_only_alternatives": []
+}
