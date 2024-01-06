@@ -1,6 +1,13 @@
-createPlayerDataFrame <- function(playerListString) {
+# Author: Leandro Corrêa ~@hscleandro
+# Date: January 06 2024
+
+createPlayerDataFrame <- function(playerListString, option_lines = 1) {
   # Dividindo a string em linhas
-  lines <- unlist(strsplit(playerListString, "\n"))
+  if(option_lines == 1){  
+    lines <- unlist(strsplit(playerListString, "\n")) 
+  } else{
+    lines <- unlist(strsplit(playerListString, "(?<=\\d,\\d{2}) (?=\\d+\\.)", perl = TRUE))
+  }
   
   # Função auxiliar para processar cada linha e extrair os dados do jogador
   processLine <- function(line) {

@@ -1,0 +1,82 @@
+body {
+	background: url("background.jpg") repeat;
+}
+
+#msg_error{
+  margin-top: 50px;
+  color:red;
+}
+
+#msg_ok{
+  margin-top: 50px;
+  color:green;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.selectize-control{
+  width:240px;
+  display:inline-block;
+}
+
+
+#headerSection {
+	background: #333;
+	margin: -25px 0 20px;
+	color: #FAFAFA;
+	padding: 15px 20px;
+	box-shadow: 0 0 7px #000;
+} 
+
+#headerSection a {
+  color: white !important;
+  text-decoration: underline;
+}
+
+#allContent,
+#loadingContent {
+	padding: 0 20px;
+}
+
+.nav-tabs > li > a {
+	font-size: 1.5em;
+}
+
+.well {
+	background: #FCFCFC;
+}
+
+
+button.btn-primary:not(.lg-btn) {
+  font-size: 1.2em;
+  margin: auto;
+  display: block;
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+}
+
+button.btn-primary.lg-btn {
+  padding: 10px 20px;
+}
+
+#runAnalysisBtn{
+  padding: 8px 12px;
+  font-size: 1.2em;
+  margin-top: 13px;
+  display: block;
+  position: relative;
+  display: block;
+  background-color: #337AB7; 
+  color: #ffffff;
+}
+
+#texto {
+  height: 150px; /* Altura da caixa de texto */
+}
+
+.btn-done-indicator {
+  color: green;
+}
