@@ -2,6 +2,9 @@
 ## Descrição
 Este projeto implementa um algoritmo genético (AG) para otimizar a formação de times baseado em critérios específicos de performance e combinações de jogadores. O objetivo é criar times equilibrados, considerando as notas dos jogadores e certas combinações desejadas ou indesejadas.
 
+## Acesso ao app do projeto
+Para acessar o app desenvolvido em Shiny (versão beta) acesse o endereço: [hscleandro.shinyapps.io/FutGenOptimizer/](https://hscleandro.shinyapps.io/FutGenOptimizer/)
+
 ## Funções Principais
 ### generateInitialPopulation(populationSize)
 Gera uma população inicial de cromossomos. Cada cromossomo é uma sequência de 21 elementos, representando a alocação de jogadores em três times.
